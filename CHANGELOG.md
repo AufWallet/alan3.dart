@@ -1,3 +1,6 @@
+## Version 0.51.0
+- Rename to Alan3.dart and add privatekey to create wallet
+
 ## Version 0.41.2+1
 - Replaced legacy `/node_info` query with new gRPC client
 

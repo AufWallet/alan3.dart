@@ -1,5 +1,4 @@
 import 'package:alan3/alan.dart';
-import 'package:alan3/proto/cosmos/base/v1beta1/coin.pb.dart';
 import 'package:test/test.dart';
 
 void main() {

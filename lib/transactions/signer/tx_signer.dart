@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/crypto/secp256k1/export.dart' as secp256;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/crypto/secp256k1/export.dart' as secp256;
 import 'package:grpc/grpc.dart' as grpc;
 import 'package:http/http.dart' as http;
 import 'package:protobuf/protobuf.dart';

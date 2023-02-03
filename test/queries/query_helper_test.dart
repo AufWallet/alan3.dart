@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:http/http.dart' as http;
 import 'package:mock_web_server/mock_web_server.dart';
 import 'package:test/test.dart';

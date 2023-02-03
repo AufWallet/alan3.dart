@@ -17,7 +17,7 @@ In order to create a wallet, you are required to provide:
 3. optionally, a derivation path. 
 
 ```dart
-import "package:alan/alan.dart";
+import "package:alan3/alan.dart";
 
 final networkInfo = NetworkInfo.fromSingleHost(
   bech32Hrp: "cosmos", 
@@ -61,7 +61,7 @@ final wallet = Wallet.derive(
 If you don't have any mnemonic phrase, or you want to get a fresh new wallet, you can use the `Wallet.random` method. You only have to provide it with a `NetworkInfo` object. 
 
 ```dart
-import "package:alan/alan.dart";
+import "package:alan3/alan.dart";
 
 final networkInfo = NetworkInfo.fromSingleHost(
   bech32Hrp: "cosmos", 

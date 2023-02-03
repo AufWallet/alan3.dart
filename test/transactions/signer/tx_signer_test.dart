@@ -1,9 +1,11 @@
 import 'dart:convert';
 
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
-import 'package:alan/proto/tendermint/p2p/types.pb.dart';
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/proto/cosmos/base/v1beta1/coin.pb.dart';
+import 'package:alan3/proto/cosmos/tx/v1beta1/tx.pb.dart';
+import 'package:alan3/proto/tendermint/p2p/types.pb.dart';
 import 'package:fixnum/fixnum.dart' as fixnum;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

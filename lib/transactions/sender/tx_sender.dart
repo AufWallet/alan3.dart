@@ -1,5 +1,5 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/tx/v1beta1/export.dart' as tx;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/tx/v1beta1/export.dart' as tx;
 import 'package:grpc/grpc.dart';
 
 /// Allows to easily send a [StdTx] using the data contained inside the

@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:fixnum/fixnum.dart' as fixnum;
 
 /// [SignatureV2] is a convenience type that is easier to use in application

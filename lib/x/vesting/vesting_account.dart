@@ -1,6 +1,6 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:fixnum/fixnum.dart';
-import 'package:alan/proto/cosmos/vesting/v1beta1/export.dart' as vesting;
+import 'package:alan3/proto/cosmos/vesting/v1beta1/export.dart' as vesting;
 
 class BaseVestingAccount implements AccountI {
   final vesting.BaseVestingAccount account;

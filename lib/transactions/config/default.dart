@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 /// [DefaultTxConfig] represents the default [TxConfig] implementation.
 class DefaultTxConfig extends TxConfig {

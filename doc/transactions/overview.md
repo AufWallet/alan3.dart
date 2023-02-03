@@ -18,16 +18,16 @@ If you want to use messages included inside default Cosmos modules (eg. `x/bank`
 To do this, you can simply import the different already built-in modules:
 
 ```dart
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
-import 'package:alan/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
 ...
 ```
 
 As you can see, the pattern used to import a module is the following:
 
 ```dart
-import 'package:alan/proto/cosmos/<module name>/v1beta1/export.dart' as <module name>;
+import 'package:alan3/proto/cosmos/<module name>/v1beta1/export.dart' as <module name>;
 ```
 
 If you want to see all the supported modules, please visit the [modules page](../modules/overview.md)
@@ -45,7 +45,7 @@ The following example uses the `bank.MsgSend` message, but remember that you can
 :::
 
 ```dart
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 void main() async {
   // Build the network info that will be used to get the 

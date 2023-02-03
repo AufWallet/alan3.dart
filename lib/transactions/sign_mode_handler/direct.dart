@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 /// [DirectSignModeHandler] defines the [SIGN_MODE_DIRECT] [SignModeHandler].
 class DirectSignModeHandler extends SignModeHandler {

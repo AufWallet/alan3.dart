@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:alan/alan.dart';
-import 'package:alan/wallet/bech32_encoder.dart';
+import 'package:alan3/alan.dart';
+import 'package:alan3/wallet/bech32_encoder.dart';
 import 'package:equatable/equatable.dart';
 import 'package:hex/hex.dart';
 import 'package:pointycastle/export.dart';
@@ -27,6 +27,34 @@ class Wallet extends Equatable {
     required this.privateKey,
     required this.publicKey,
   });
+
+  factory Wallet.fromPrivateKey(
+    Uint8List privateKey,
+    NetworkInfo networkInfo
+  ) {
+    // Get the curve data
+    final secp256k1 = ECCurve_secp256k1();
+    final point = secp256k1.G;
+
+    // Compute the curve point associated to the private key
+    final bigInt = BigInt.parse(HEX.encode(privateKey), radix: 16);
+    final curvePoint = point * bigInt;
+
+    // Get the public key
+    final publicKeyBytes = curvePoint!.getEncoded();
+
+    // Get the address
+    final sha256Digest = SHA256Digest().process(publicKeyBytes);
+    final address = RIPEMD160Digest().process(sha256Digest);
+
+    // Return the key bytes
+    return Wallet(
+      address: address,
+      publicKey: publicKeyBytes,
+      privateKey: privateKey,
+      networkInfo: networkInfo,
+    );
+  }
 
   /// Derives the private key from the given [mnemonic] using the specified
   /// [networkInfo].

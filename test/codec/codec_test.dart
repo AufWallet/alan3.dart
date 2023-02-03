@@ -1,6 +1,6 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
-import 'package:alan/proto/cosmos/vesting/v1beta1/export.dart' as vesting;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/proto/cosmos/vesting/v1beta1/export.dart' as vesting;
 import 'package:convert/convert.dart';
 import 'package:fixnum/fixnum.dart';
 import 'package:protobuf/protobuf.dart';

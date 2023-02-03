@@ -1,7 +1,7 @@
-name: alan
+name: alan3
 description: Pure Dart library to easily integrate with any Cosmos-based chain.
-version: 0.41.2+1
-homepage: https://github.com/alan-sdk/alan.dart
+version: 0.51
+homepage: https://github.com/aufwallet/alan3.dart
 environment:
   sdk: ">=2.12.0 <3.0.0"
 

@@ -1,6 +1,6 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:fixnum/fixnum.dart';
-import 'package:alan/proto/cosmos/auth/v1beta1/auth.pb.dart' as auth;
+import 'package:alan3/proto/cosmos/auth/v1beta1/auth.pb.dart' as auth;
 
 abstract class AccountI {
   String get address;

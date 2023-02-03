@@ -7,7 +7,7 @@ Please note that, instead of re-writing the documentation from scratch, if nothi
 ### Auth
 Import:  
 ```dart
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
 ```
 
 Documentation:
@@ -20,7 +20,7 @@ Alan.dart comes with a couple of custom implementations for the the `x/auth` mod
 ### Bank
 Import:
 ```dart
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
 ```
 
 Documentation:
@@ -30,7 +30,7 @@ Documentation:
 ### Crisis
 Import:
 ```dart
-import 'package:alan/proto/cosmos/crisis/v1beta1/export.dart' as crisis;
+import 'package:alan3/proto/cosmos/crisis/v1beta1/export.dart' as crisis;
 ```
 
 Documentation:
@@ -39,7 +39,7 @@ Documentation:
 ### Distribution
 Import:
 ```dart
-import 'package:alan/proto/cosmos/distribution/v1beta1/export.dart' as distr;
+import 'package:alan3/proto/cosmos/distribution/v1beta1/export.dart' as distr;
 ```
 
 Documentation:
@@ -49,7 +49,7 @@ Documentation:
 ### Distribution
 Import:
 ```dart
-import 'package:alan/proto/cosmos/gov/v1beta1/export.dart' as gov;
+import 'package:alan3/proto/cosmos/gov/v1beta1/export.dart' as gov;
 ```
 
 Documentation:
@@ -60,7 +60,7 @@ Documentation:
 ### Mint
 Import:
 ```dart
-import 'package:alan/proto/cosmos/mint/v1beta1/export.dart' as mint;
+import 'package:alan3/proto/cosmos/mint/v1beta1/export.dart' as mint;
 ```
 
 Documentation:
@@ -69,7 +69,7 @@ Documentation:
 ### Params
 Import:
 ```dart
-import 'package:alan/proto/cosmos/params/v1beta1/export.dart' as params;
+import 'package:alan3/proto/cosmos/params/v1beta1/export.dart' as params;
 ```
 
 Documentation:
@@ -78,7 +78,7 @@ Documentation:
 ### Slashing
 Import:
 ```dart
-import 'package:alan/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
+import 'package:alan3/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
 ```
 
 Documentation:
@@ -88,7 +88,7 @@ Documentation:
 ### Staking
 Import:
 ```dart
-import 'package:alan/proto/cosmos/staking/v1beta1/export.dart' as staking;
+import 'package:alan3/proto/cosmos/staking/v1beta1/export.dart' as staking;
 ```
 
 Documentation:
@@ -98,7 +98,7 @@ Documentation:
 ### Upgrade
 Import:
 ```dart
-import 'package:alan/proto/cosmos/upgrade/v1beta1/export.dart' as upgrade;
+import 'package:alan3/proto/cosmos/upgrade/v1beta1/export.dart' as upgrade;
 ```
 
 Documentation:

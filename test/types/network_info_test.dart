@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:grpc/grpc.dart';
 import 'package:test/test.dart';
 

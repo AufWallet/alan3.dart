@@ -8,16 +8,16 @@ If you are building an application that wants to query only default Cosmos modul
 To do this, you can simply import the different already built-in modules: 
 
 ```dart
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
-import 'package:alan/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/proto/cosmos/slashing/v1beta1/export.dart' as slashing;
 ...
 ```
 
 As you can see, the pattern used to import a module is the following: 
 
 ```dart
-import 'package:alan/proto/cosmos/<module name>/v1beta1/export.dart' as <module name>;
+import 'package:alan3/proto/cosmos/<module name>/v1beta1/export.dart' as <module name>;
 ```
 
 If you want to see all the supported modules, please visit the [modules page](../modules/overview.md)
@@ -58,7 +58,7 @@ If you want to improve the efficiency of your application, you should reuse the 
 Once you have your `QueryClient` instance ready, you can now start querying the data. To do this, simply call the different `QueryClient` methods with the proper parameters: 
 
 ```dart
-import 'package:alan/proto/cosmos/staking/v1beta1/export.dart' as staking;
+import 'package:alan3/proto/cosmos/staking/v1beta1/export.dart' as staking;
 
 // Create the pagination data
 final pagination = PageRequest.create()

@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 /// Extends [TxResponse] with useful methods.
 extension TxResponseExt on TxResponse {

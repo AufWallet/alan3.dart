@@ -9,7 +9,7 @@ By default, Cosmos returns the accounts as instances of the `Any`. Such instance
 In order to avoid having you re-write this logic every time, we implemented the `AuthQuerier.getAccountData` method that simply returns an `AccountI` instance. This is an interface that is implemented by all the classes representing an account and contains all the getters to access common data. 
 
 ```dart
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 final querier = AuthQuerier.create(channel);
 final account = await querier.getAccountData(address);

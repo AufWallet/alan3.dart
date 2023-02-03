@@ -4,8 +4,8 @@
 
 import 'dart:async' as _i4;
 
-import 'package:alan/alan.dart' as _i3;
-import 'package:alan/proto/tendermint/p2p/types.pb.dart' as _i2;
+import 'package:alan3/alan.dart' as _i3;
+import 'package:alan3/proto/tendermint/p2p/types.pb.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 
 // ignore_for_file: type=lint

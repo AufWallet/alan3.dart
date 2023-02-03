@@ -2,7 +2,7 @@ import 'dart:collection';
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:hex/hex.dart';
 import 'package:test/test.dart';
 

@@ -1,5 +1,5 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
 import 'package:fixnum/fixnum.dart' as fixnum;
 import 'package:test/test.dart';
 

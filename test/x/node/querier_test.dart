@@ -1,8 +1,8 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/base/tendermint/v1beta1/export.dart'
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/base/tendermint/v1beta1/export.dart'
     as tendermint;
-import 'package:alan/proto/cosmos/base/tendermint/v1beta1/query.pb.dart';
-import 'package:alan/proto/tendermint/p2p/types.pb.dart';
+import 'package:alan3/proto/cosmos/base/tendermint/v1beta1/query.pb.dart';
+import 'package:alan3/proto/tendermint/p2p/types.pb.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';

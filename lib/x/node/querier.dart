@@ -1,6 +1,6 @@
-import 'package:alan/proto/cosmos/base/tendermint/v1beta1/export.dart'
+import 'package:alan3/proto/cosmos/base/tendermint/v1beta1/export.dart'
     as tendermint;
-import 'package:alan/proto/tendermint/p2p/types.pb.dart';
+import 'package:alan3/proto/tendermint/p2p/types.pb.dart';
 import 'package:grpc/grpc.dart' as grpc;
 
 /// Allows to query a full node for its information.

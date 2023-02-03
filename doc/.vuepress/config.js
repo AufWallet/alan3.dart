@@ -33,7 +33,7 @@ module.exports = {
         'vuepress-plugin-element-tabs',
     ],
     themeConfig: {
-        repo: "alan-sdk/alan.dart",
+        repo: "aufwallet/alan3.dart",
         editLinks: true,
         docsDir: "docs",
         docsBranch: "master",

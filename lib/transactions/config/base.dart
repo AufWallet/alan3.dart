@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 
 /// [TxConfig] defines an interface a client can utilize to generate an
 /// application-defined concrete transaction type. The type returned must

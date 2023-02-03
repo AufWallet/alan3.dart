@@ -4,8 +4,8 @@
 
 import 'dart:async' as _i6;
 
-import 'package:alan/proto/cosmos/tx/v1beta1/service.pb.dart' as _i5;
-import 'package:alan/proto/cosmos/tx/v1beta1/service.pbgrpc.dart' as _i4;
+import 'package:alan3/proto/cosmos/tx/v1beta1/service.pb.dart' as _i5;
+import 'package:alan3/proto/cosmos/tx/v1beta1/service.pbgrpc.dart' as _i4;
 import 'package:grpc/service_api.dart' as _i2;
 import 'package:grpc/src/client/call.dart' as _i3;
 import 'package:mockito/mockito.dart' as _i1;

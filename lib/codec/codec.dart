@@ -1,4 +1,4 @@
-import 'package:alan/alan.dart';
+import 'package:alan3/alan.dart';
 import 'package:protobuf/protobuf.dart';
 
 /// Represents a function that can read an [Any] as a particular

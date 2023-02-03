@@ -1,5 +1,5 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/auth/v1beta1/export.dart' as auth;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/auth/v1beta1/export.dart' as auth;
 import 'package:grpc/grpc.dart' as grpc;
 
 /// Allows to query the x/auth module endpoints easily.

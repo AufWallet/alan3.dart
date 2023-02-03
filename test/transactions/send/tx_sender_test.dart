@@ -1,6 +1,8 @@
-import 'package:alan/alan.dart';
-import 'package:alan/proto/cosmos/bank/v1beta1/export.dart' as bank;
-import 'package:alan/proto/cosmos/tx/v1beta1/export.dart' as tx;
+import 'package:alan3/alan.dart';
+import 'package:alan3/proto/cosmos/bank/v1beta1/export.dart' as bank;
+import 'package:alan3/proto/cosmos/base/abci/v1beta1/abci.pb.dart';
+import 'package:alan3/proto/cosmos/base/v1beta1/coin.pb.dart';
+import 'package:alan3/proto/cosmos/tx/v1beta1/export.dart' as tx;
 import 'package:fixnum/fixnum.dart' as fixnum;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

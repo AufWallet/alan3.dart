@@ -153,6 +153,31 @@ class NetworkInfo extends Equatable {
     );
   }
 
+  factory NetworkInfo.fromMultiHosts({
+    required String bech32Hrp,
+    required String grpc,
+    required String lcd
+  }) {
+    final grpcUri = Uri.parse(grpc);
+    final credentials = grpcUri.scheme == 'https' ? ChannelCredentials.secure() : ChannelCredentials.insecure();
+
+    final lcdUri = Uri.parse(lcd);
+    final lcdHost = '${lcdUri.scheme}://${lcdUri.host}';
+
+    return NetworkInfo(
+        bech32Hrp: bech32Hrp,
+        lcdInfo: LCDInfo(
+            host: lcdHost,
+            port: lcdUri.port
+        ),
+        grpcInfo: GRPCInfo(
+            host: grpcUri.host,
+            port: grpcUri.port,
+            credentials: credentials
+        )
+    );
+  }
+
   factory NetworkInfo.fromJson(Map<String, dynamic> json) {
     return _$NetworkInfoFromJson(json);
   }
